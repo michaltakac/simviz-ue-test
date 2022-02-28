@@ -11,6 +11,6 @@ public class SimlVizTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "SimlViz" } );
         // allow root user access in ue4 linux containers
-        GlobalDefinitions.Add("UE4_DO_ROOT_PRIVILEGE_CHECK=0");
+        // GlobalDefinitions.Add("UE4_DO_ROOT_PRIVILEGE_CHECK=0");
 	}
 }
